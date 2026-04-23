@@ -251,16 +251,18 @@ export default function Home() {
 
       {/* ═══ HERO ═══ */}
       <section id="hero" className="relative w-full overflow-hidden" style={{ height: "100vh", minHeight: "700px" }}>
-        <Image
-          src="/images/dining-room.jpg"
-          alt="El Cortijillo de Juan Diego"
-          fill
-          className="object-cover"
-          priority
-          quality={90}
-          sizes="100vw"
-        />
-        <div className="hero-overlay absolute inset-0" />
+        <div className="absolute inset-0" style={{ filter: "blur(3px)", transform: "scale(1.05)" }}>
+          <Image
+            src="/images/dining-room.jpg"
+            alt="El Cortijillo de Juan Diego"
+            fill
+            className="object-cover"
+            priority
+            quality={90}
+            sizes="100vw"
+          />
+        </div>
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(0,0,0,0.55)" }} />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center px-6 max-w-4xl">
             <p className="reveal text-gold tracking-[0.35em] uppercase text-sm mb-6" style={inter}>
