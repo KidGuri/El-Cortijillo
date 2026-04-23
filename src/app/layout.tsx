@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "El Cortijillo de Juan Diego",
     description:
-      "Cocina mediterránea de autor en Torrellano, Alicante. 4.5/5 en TripAdvisor. Travellers' Choice Award.",
+      "Cocina mediterránea de autor en Torrellano, Alicante. 4.6/5 en Google con 2.912+ opiniones. Travellers' Choice Award.",
     type: "website",
     locale: "es_ES",
   },

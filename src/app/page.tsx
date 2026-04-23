@@ -301,8 +301,8 @@ export default function Home() {
       <section style={{ backgroundColor: "var(--color-charcoal)", borderTop: "1px solid rgba(201,169,110,0.1)", borderBottom: "1px solid rgba(201,169,110,0.1)" }}>
         <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { value: "4.5/5", label: "TripAdvisor" },
-            { value: "459+", label: "Opiniones" },
+            { value: "4.6/5", label: "Google" },
+            { value: "2.912+", label: "Opiniones" },
             { value: "#2", label: "en Torrellano" },
             { value: "10+", label: "Años de historia" },
           ].map((s) => (
@@ -336,7 +336,7 @@ export default function Home() {
                 la más alta calidad.
               </p>
               <p className="text-white/65 leading-relaxed mb-8 text-base" style={inter}>
-                Galardonados con el Travellers&apos; Choice Award y con más de 459 opiniones
+                Galardonados con el Travellers&apos; Choice Award y con más de 2.900 opiniones
                 positivas, somos el segundo restaurante mejor valorado de Torrellano.
                 Nuestros arroces, mariscos y carnes son el reflejo de años de experiencia
                 y dedicación.
@@ -529,7 +529,7 @@ export default function Home() {
           <div className="flex items-center justify-center gap-3">
             <Stars count={5} />
             <span className="text-white/55 text-sm" style={inter}>
-              4.5 / 5 en TripAdvisor &middot; 459+ opiniones
+              4.6 / 5 en Google &middot; 2.912+ opiniones
             </span>
           </div>
         </div>
